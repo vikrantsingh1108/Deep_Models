@@ -1,0 +1,9 @@
+{"ModelDescription": 
+	[{"layer": "start", "no_of_neurons":12 , "activationFunction": "relu", "initializationFunction":"uniform" , "inputDimension":1}, 
+	{"layer": "mid1", "no_of_neurons":12 , "activationFunction": "tanh", "initializationFunction":"uniform" , "inputDimension":0},
+	{"layer": "end", "no_of_neurons":0 , "activationFunction": "softmax", "initializationFunction":"uniform" , "inputDimension":2}],
+	"CompileOption":
+	[{"lossMethod":"binary_crossentropy","optimizeMethod":"adam","metrics":"accuracy"}],"TrainingOptions":[{"epochs":100,"batch_size":5}],
+	"Dataset":
+	[{"name":"../Datasets/Diabities.csv"}],"LaplacianScore":
+	 [{"neighbour_size":8, "t_param":2}]}
